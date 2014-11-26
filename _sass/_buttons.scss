@@ -1,0 +1,53 @@
+.btn {
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px rgba($grey, .7);
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.42857;
+  padding: 20px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  transition: box-shadow .3s;
+  -moz-transition: box-shadow .3s;
+  -webkit-transition: box-shadow .3s;
+  vertical-align: middle;
+  white-space: nowrap;
+  @include user-select(none);
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 7px 14px rgba($grey, .7);
+  outline: 0;
+  text-decoration: none;
+}
+
+.btn:active {
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  box-shadow: 0 5px 10px rgba($grey, .7);
+  outline: 0;
+  text-decoration: none;
+  transition: box-shadow 0;
+  -moz-transition: box-shadow 0;
+  -webkit-transition: box-shadow 0;
+}
+
+.btn-green {
+  background-color: $green;
+  color: $cream;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active {
+  color: $cream;
+}
+
+.btn-green:active {
+  background-color: darken($green, 5%);
+  color: darken($cream, 5%);
+}

@@ -1,0 +1,148 @@
+/*.navbar {
+  background-color: rgba($grey, .3);
+  color: $cream;
+  font-size: 16px;
+  font-weight: 300;
+  left: 0;
+  padding: 10px 0;
+  position: fixed;
+  right: 0;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    color: $cream;
+    display: block;
+    padding: 15px;
+  }
+
+  a:focus,
+  a:hover {
+    background-color: $cream;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba($grey, .15);
+    color: $grey;
+    text-decoration: none;
+  }
+
+  li.active>a {
+    background-color: $cream;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba($grey, .3);
+    color: $grey;
+  }
+
+  .logo {
+    padding: 5px;
+    
+    img {
+      height: 40px;
+    }
+  }
+}*/
+
+
+
+
+
+
+
+
+
+.navbar-default {
+    border-color: transparent;
+    background-color: $grey;
+    font-weight: 300;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: $cream;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: $cream;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    background-color: $cream;
+    border-color: $cream;
+    color: $grey;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: $purple;
+}
+
+.navbar-default .nav li a {
+    color: $cream;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: $cream;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: $grey;
+    background-color: $cream;
+}
+
+@media (min-width: 768px) {
+    .navbar-default {
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: background .3s;
+        -moz-transition: background .3s;
+        transition: background .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        opacity: 0;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+        box-shadow: 0 5px 10px rgba($grey, .3);
+    }
+
+    .navbar-default.navbar-shrink {
+        background-color: rgba($grey, .3);
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        opacity: 1;
+    }
+}

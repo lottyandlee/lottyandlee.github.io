@@ -1,0 +1,15 @@
+detach: false
+host: 0.0.0.0
+port: 4000
+baseurl: ""
+
+# Site settings
+title: Lotty & Lee Vintage
+description: "Hand picked high quality vintage items to suit every taste and budget."
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed

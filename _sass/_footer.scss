@@ -1,0 +1,50 @@
+footer {
+    background-color: $grey;
+    color: $cream;
+    font-weight: 300;
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer a { color: $cream; line-height: 60px; padding: 15px; }
+
+footer a:hover,
+footer a:focus {
+  background-color: $cream;
+  border-radius: 3px;
+  color: $grey;
+  text-decoration: none;
+}
+
+footer span.copyright {
+    line-height: 60px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 60px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    border-radius: 50%;
+    color: $cream;
+    display: block;
+    font-size: 40px;
+    height: 60px;
+    line-height: 40px;
+    outline: 0;
+    padding: 10px;
+    width: 60px;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: $cream;
+  color: $grey;
+  text-decoration: none;
+}

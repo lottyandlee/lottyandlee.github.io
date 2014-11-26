@@ -1,0 +1,25 @@
+.polaroid {
+    background-color: $cream;
+    border: 1px solid rgba(51, 34, 17, .15);
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(51, 34, 17, .35);
+    color: $grey;
+    display: inline-block;
+    margin: 0 auto 15px;
+    padding: 15px;
+}
+
+.polaroid img { box-shadow: 0 -1px 1px rgba(51, 34, 17, .7); }
+
+@media(min-width: 768px) {
+  .polaroid-alt-1 { transform: rotate(2deg); }
+  .polaroid-alt-2 { transform: rotate(-1deg); }
+  .polaroid-alt-3 { transform: rotate(1deg); }
+  .polaroid-alt-4 { transform: rotate(-2deg); }
+}
+
+@media(min-width:767px) {
+  .polaroid {
+    margin-bottom: 30px;
+  }
+}

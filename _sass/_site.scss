@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: $link-color;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: darken($link-color, 15%);
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: $purple;
+}
+
+::selection {
+    text-shadow: none;
+    background: $purple;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: $purple;
+}

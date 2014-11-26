@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-jegf0s');
+	src:url('fonts/icomoon.eot?#iefix-jegf0s') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-jegf0s') format('woff'),
+		url('fonts/icomoon.ttf?-jegf0s') format('truetype'),
+		url('fonts/icomoon.svg?-jegf0s#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ji-heart-outline:before {
+	content: "\26";
+}
+.icon-ji-heart-filled:before {
+	content: "\5e";
+}
+.icon-ji-paper-plane:before {
+	content: "\6c";
+}
+.icon-ji-tag:before {
+	content: "\a7";
+}
+.icon-ji-currency-gbp:before {
+	content: "\2f";
+}
+.icon-ji-pinterest:before {
+	content: "\30";
+}
+.icon-ji-shopping-bag:before {
+	content: "\3b";
+}
+.icon-ji-bicycle:before {
+	content: "\44";
+}
+.icon-ji-bow-arrow:before {
+	content: "\51";
+}
+.icon-ji-instagram:before {
+	content: "\61";
+}
+.icon-ji-twitter:before {
+	content: "\63";
+}
+.icon-ji-facebook:before {
+	content: "\65";
+}
+.icon-ji-disguise:before {
+	content: "\6d";
+}
+.icon-ji-gem:before {
+	content: "\6e";
+}
+.icon-ji-heart-arrow:before {
+	content: "\79";
+}
+.icon-ji-smiley:before {
+	content: "\57";
+}

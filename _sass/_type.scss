@@ -1,0 +1,42 @@
+h1,
+h2 {
+  font-family: "Funkydori", "Roboto Slab", sans-serif;
+  -moz-font-feature-settings: 'titl';
+  -ms-font-feature-settings: 'titl';
+  -o-font-feature-settings: 'titl';
+  -webkit-font-feature-settings: 'titl';
+  font-feature-settings: 'titl';
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+@font-feature-values Funkydori { @styleset { ss01: 1; ss02: 2; ss03: 3; } }
+
+.ss01 {
+    -moz-font-feature-settings: 'ss01=1';
+    -ms-font-feature-settings: 'ss01';
+    -o-font-feature-settings: 'ss01';
+    -webkit-font-feature-settings: 'ss01';
+    font-feature-settings: 'ss01';
+}
+
+.ss02 {
+    -moz-font-feature-settings: 'ss02=1';
+    -ms-font-feature-settings: 'ss02';
+    -o-font-feature-settings: 'ss02';
+    -webkit-font-feature-settings: 'ss02';
+    font-feature-settings: 'ss02';
+}
+
+.ss03 {
+    -moz-font-feature-settings: 'ss03=1';
+    -ms-font-feature-settings: 'ss03';
+    -o-font-feature-settings: 'ss03';
+    -webkit-font-feature-settings: 'ss03';
+    font-feature-settings: 'ss03';
+}

@@ -1,0 +1,25 @@
+.form-control {
+  background: $cream;
+  border-radius: 3px;
+  color: $grey;
+  font-size: 18px;
+  font-weight: 400;
+  height: auto;
+  padding: 10px;
+}
+
+.form-control:-moz-input-placeholder {
+  color: rgba($grey, .5);
+}
+
+.form-control::-moz-input-placeholder {
+  color: rgba($grey, .5);
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgba($grey, .5);
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba($grey, .5);
+}
